@@ -1,0 +1,17 @@
+{
+  "name": "hack_p2p_cdn",
+  "version": "0.0.1",
+  "description": "p2p cdn",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "node-static": "0.7.x",
+    "socket.io": "0.9.x",
+    "measured": "*",
+    "d3": "3"
+  },
+  "author": "xbs"
+}

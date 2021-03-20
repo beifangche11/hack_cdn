@@ -1,0 +1,38 @@
+.tick {
+    stroke: black;
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+}
+
+.graph {
+    margin: 0 auto;
+    display: block;
+}
+
+.bar {
+    display: inline-block;
+    width: 20px;
+    height: 75px;
+    background-color: teal;
+}
+
+.center {
+    text-align: center
+}
+
+.arial {
+    font-family: arial
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+}
+
+.report {
+    width: 700px;
+}
+
+.nodisplay {
+    display: none;
+}

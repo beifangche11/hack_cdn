@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+        <title>去中心化CDN</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div id="img_holder" class="center">
+            <p class="center">去中心化CDN</p>
+            <img id="downloaded" />
+        </div>
+
+        <p class="center">该元素的获取渠道： <strong><span id="send_medium"></span></strong></p>
+
+        <p class="center">该元素的加载时长： <strong><span id="time_to_load"></span></strong> ms.</p>
+
+        <!-- 基于浏览器的连接的资源加载时间 -->
+        <div class="center left" id="report">
+            <div id="latency_values">
+                <h4 class="center nodisplay" id="avg_report">基于<span id="num_connections"></span> 个浏览器的平均加载时长为： <span id="avg_latency"></span> ms</h4>
+            </div>
+        </div>
+
+        <!-- 可视化的资源加载时间 -->
+        <path d="M0,0L1,6L2,4"></path>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="src/lib/adapter.js"></script>
+        <script src="src/jquery.js"></script>
+        <script src="src/main.js"></script>
+        <script src="http://d3js.org/d3.v3.js"></script>
+
+    </body>
+</html>
